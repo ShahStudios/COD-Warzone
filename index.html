@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="overlay" id="overlay">
+        <h3>Searching Now...</h3>
+    </div>
+    <div class="hero-bg">
+        <section class="top">
+            
+            <header>
+                <a href="#">warzone</a>
+            </header>
+
+            <h1><span>CALL OF DUTY</span>BATTLE ROYALE</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eaque animi est exercitationem temporibus assumenda illo velit et id nobis.</p>
+
+            <div class="form-container">
+                <form action="">
+                    <div class="form-left">
+                        <label for="city">Subscribe To Our Newsletter</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+
+                    <input type="button" value="Subscribe Now" id="cta-btn">
+                </form>
+            </div>
+
+        </section>
+    </div>
+
+    <section class="authentic">
+        <div class="right-col">
+            <h2>Authentic. Awesome.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, maiores ipsam. Ipsam ea mollitia voluptates natus itaque ab a quisquam.</p>
+        </div>
+        <img src="images/box-image1.jpg" alt="Picture of two troops">
+    </section>
+    
+    <section class="authentic2">
+        <div class="right-col2">
+            <h2>Authentic. Awesome.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, maiores ipsam. Ipsam ea mollitia voluptates natus itaque ab a quisquam.</p>
+        </div>
+        <img class="image-2" src="images/box-image2.jpg" alt="Picture of troop skydiving">
+    </section>
+
+    <script>
+        let btn = document.getElementById('cta-btn');
+        let overlay = document.getElementById('overlay');
+        btn.addEventListener('click', () => {
+            overlay.style.display = 'grid';
+            overlay.classList.add('animate-overlay');
+        })
+    </script>
+
+</body>
+</html>
