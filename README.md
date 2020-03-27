@@ -6,4 +6,4 @@ Call of Duty : Warzone Web App Created Using HTML5 CSS3 & Javascript.
 * How to use CSS3 grid and how to add action to cta button
 
 # View Project
-https://shah-arma4.netlify.com/
+https://shahstudios.github.io/COD-Warzone/
