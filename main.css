@@ -58,7 +58,7 @@ h1 span {
 }
 
 label {
-    color: #E6E4E4;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     display: block;
     margin-bottom: 0.8em;
@@ -66,7 +66,7 @@ label {
 }
 
 input[type=text] {
-    border: 1px solid #F6F6F8;
+    border: 1px solid rgb(255, 255, 255);
     width: 100%;
     padding: 1em;
     border-radius: .5em;
@@ -76,7 +76,7 @@ input[type=text] {
 
 
 input[type=button] {
-    background-color: #E2932F;
+    background-color: rgb(184, 8, 8);
     border: none;
     width: 100%;
     color: #fff;
@@ -89,7 +89,7 @@ input[type=button] {
 }
 
 input[type=button]:hover {
-    background-color: rgb(216, 125, 1);
+    background-color: rgb(145, 7, 7);
 }
 
 .authentic, .authentic2 {
@@ -107,17 +107,6 @@ input[type=button]:hover {
 h2 {
     text-transform: uppercase;
     position: relative;
-}
-
-h2::before {
-    content: ' ';
-    position: absolute;
-    width: 8em;
-    background: #00BFFF;
-    height: .4em;
-    bottom: 0;
-    z-index: -1;
-    margin-left: -.3em;
 }
 
 img {
